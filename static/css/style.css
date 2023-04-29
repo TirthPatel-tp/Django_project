@@ -1,0 +1,154 @@
+/* Global styles */
+html,
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 50px;
+}
+title {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: rgb(161, 223, 223);
+  text-shadow: 2px 2px #eee;
+}
+header {
+  background-color: #fff;
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+  }
+  
+  header img {
+  max-width: 100%;
+  height: auto;
+  }
+
+  
+  header h1 {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-left: 1.5rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #4db6cb;
+  }
+
+a {
+  color: #f9fafb;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  
+}
+
+.btn{
+  background-color: #080808;
+  border-radius: 4px;
+  padding: 7px;
+  border: 2px solid gray;
+}
+
+a:hover {
+  color: #1a73e8;
+  text-decoration: underline;
+}
+
+/* Form styles */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  background-color: #fff;
+  border: 2px solid black;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1.5px solid #090808;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+ul li{
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  form {
+    max-width: 800px;
+  }
+}
+
+/* Buttons */
+button[type="submit"] {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: #080808;;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  background-color: #3b9bd3;
+}
+
+
+
+
+
